@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(110, 110, 110);
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+canvas {
+    background-color: rgb(2, 112, 13);
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgba(123, 222, 10, 0.1);
+}
+
+button:active {
+    background-color: rgba(123, 222, 10, 0.2);
+}
+
+button:focus {
+    border: none;
+}
+
+.dog-menu {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+    background-image: url('/sprites/dog-menu.png');
+    width: 400px;
+    height: 400px;
+}
