@@ -18,24 +18,24 @@ const grid = (num) => {
 //Global Arrays & Objects
 const pics = {
     dogs: [
-        {name: 'cattle-dog',index: 0, left: '/sprites/cattle-dog-left.png', right: '/sprites/cattle-dog-right.png'},
-        {name: 'akita',index: 1, left: '/sprites/akita-left.png', right: '/sprites/akita-right.png'},
-        {name: 'beagle',index: 2, left: '/sprites/beagle-left.png', right: '/sprites/beagle-right.png'},
-        {name: 'bernese-mountain-dog',index: 3, left: '/sprites/bernese-mountain-left.png', right: '/sprites/bernese-mountain-right.png'},
-        {name: 'boston-terrier',index: 4, left: '/sprites/boston-terrier-left.png', right: '/sprites/boston-terrier-right.png'},
-        {name: 'bull-terrier',index: 5, left: '/sprites/bull-terrier-left.png', right: '/sprites/bull-terrier-right.png'},
-        {name: 'chow-chow',index: 6, left: '/sprites/chow-chow-left.png', right: '/sprites/chow-chow-right.png'},
-        {name: 'corgi', index: 7, left: '/sprites/corgi-left.png', right: '/sprites/corgi-right.png'},
-        {name: 'weiner-dog',index: 8, left: '/sprites/weiner-dog-left.png', right: '/sprites/weiner-dog-right.png'},
-        {name: 'doberman',index: 9, left: '/sprites/doberman-left.png', right: '/sprites/doberman-right.png'},
-        {name: 'german-shepard',index: 10, left: '/sprites/german-shepard-left.png', right: '/sprites/german-shepard-right.png'},
-        {name: 'greyhound',index: 11, left: '/sprites/greyhound-left.png', right: '/sprites/greyhound-right.png'},
-        {name: 'husky',index: 12, left: '/sprites/husky-left.png', right: '/sprites/husky-right.png'},
-        {name: 'jack-russell',index: 13, left: '/sprites/jack-russell-left.png', right: '/sprites/jack-russell-right.png'},
-        {name: 'pomeranian',index: 14, left: '/sprites/pomeranian-left.png', right: '/sprites/pomeranian-right.png'},
-        {name: 'sheep-dog',index: 15, left: '/sprites/sheep-dog-left.png', right: '/sprites/sheep-dog-right.png'},
+        {name: 'cattle-dog',index: 0, left: 'sprites/cattle-dog-left.png', right: 'sprites/cattle-dog-right.png'},
+        {name: 'akita',index: 1, left: 'sprites/akita-left.png', right: 'sprites/akita-right.png'},
+        {name: 'beagle',index: 2, left: 'sprites/beagle-left.png', right: 'sprites/beagle-right.png'},
+        {name: 'bernese-mountain-dog',index: 3, left: 'sprites/bernese-mountain-left.png', right: 'sprites/bernese-mountain-right.png'},
+        {name: 'boston-terrier',index: 4, left: 'sprites/boston-terrier-left.png', right: 'sprites/boston-terrier-right.png'},
+        {name: 'bull-terrier',index: 5, left: 'sprites/bull-terrier-left.png', right: 'sprites/bull-terrier-right.png'},
+        {name: 'chow-chow',index: 6, left: 'sprites/chow-chow-left.png', right: 'sprites/chow-chow-right.png'},
+        {name: 'corgi', index: 7, left: 'sprites/corgi-left.png', right: 'sprites/corgi-right.png'},
+        {name: 'weiner-dog',index: 8, left: 'sprites/weiner-dog-left.png', right: 'sprites/weiner-dog-right.png'},
+        {name: 'doberman',index: 9, left: 'sprites/doberman-left.png', right: 'sprites/doberman-right.png'},
+        {name: 'german-shepard',index: 10, left: 'sprites/german-shepard-left.png', right: 'sprites/german-shepard-right.png'},
+        {name: 'greyhound',index: 11, left: 'sprites/greyhound-left.png', right: 'sprites/greyhound-right.png'},
+        {name: 'husky',index: 12, left: 'sprites/husky-left.png', right: 'sprites/husky-right.png'},
+        {name: 'jack-russell',index: 13, left: 'sprites/jack-russell-left.png', right: 'sprites/jack-russell-right.png'},
+        {name: 'pomeranian',index: 14, left: 'sprites/pomeranian-left.png', right: 'sprites/pomeranian-right.png'},
+        {name: 'sheep-dog',index: 15, left: 'sprites/sheep-dog-left.png', right: 'sprites/sheep-dog-right.png'},
     ],
-    cows: ['/sprites/reg-cow.png', '/sprites/brown-cow.png', '/sprites/orange-cow.png', '/sprites/black-cow.png']
+    cows: ['sprites/reg-cow.png', 'sprites/brown-cow.png', 'sprites/orange-cow.png', 'sprites/black-cow.png']
 }
 
 class Snake {
